@@ -14,6 +14,7 @@ public class Logintest
 	@Parameters("browser")
 	public void LogintestMethod(String browsername) throws IOException
 	{
+//Test
 		
 		BrowserOperations browseroperationobj = new BrowserOperations();
 		WebDriver driver =browseroperationobj.LaunchApplication(browsername);
